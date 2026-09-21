@@ -27,7 +27,7 @@ export function Hero() {
         </p>
 
         <div className="max-w-2xl">
-          <h1 id="hero-heading" className="font-serif text-[2.75rem] leading-[1.02] font-medium text-charcoal-foreground text-balance sm:text-6xl lg:text-7xl">
+          <h1 id="hero-heading" className="font-serif text-[2.75rem] leading-[1.02] font-medium text-charcoal-foreground sm:text-6xl sm:text-balance lg:text-7xl">
             Honoring Lives. Creating Lasting Memorials.
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-charcoal-foreground/85 sm:text-xl">
