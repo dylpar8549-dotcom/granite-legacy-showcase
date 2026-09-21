@@ -4,7 +4,7 @@ import { ButtonLink } from "./Button";
 
 export function Hero() {
   return (
-    <section id="home" aria-labelledby="hero-heading" className="relative isolate flex min-h-[calc(100svh-4.5rem)] items-end overflow-hidden bg-charcoal lg:min-h-[calc(100svh-5rem)]">
+    <section id="home" aria-labelledby="hero-heading" className="relative isolate flex min-h-[88svh] items-end overflow-hidden bg-charcoal sm:min-h-[calc(100svh-4.5rem)] lg:min-h-[calc(100svh-5rem)]">
       <img
         src={images.hero.src}
         alt={images.hero.alt}
@@ -12,12 +12,12 @@ export function Hero() {
         height={images.hero.height}
         fetchPriority="high"
         decoding="async"
-        className="absolute inset-0 -z-20 size-full object-cover object-[60%_center] sm:object-center"
+        className="absolute inset-0 -z-20 size-full object-cover object-[28%_center] sm:object-center"
       />
       {/* Layered gradient keeps text readable without darkening the whole photo */}
       <div
         aria-hidden="true"
-        className="absolute inset-0 -z-10 bg-gradient-to-t from-overlay/85 via-overlay/45 to-overlay/15 sm:bg-gradient-to-r sm:from-overlay/80 sm:via-overlay/45 sm:to-overlay/5"
+        className="absolute inset-0 -z-10 bg-gradient-to-t from-overlay/85 via-overlay/35 to-overlay/5 sm:bg-gradient-to-r sm:from-overlay/80 sm:via-overlay/45 sm:to-overlay/5"
       />
 
       <div className="container-site relative pb-24 pt-28 sm:pb-28 sm:pt-36 lg:pb-32">
